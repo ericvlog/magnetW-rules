@@ -1,0 +1,19 @@
+[
+  {
+  "id": "nyaa",
+  "name": "ttt :: Sukebei",
+  "url": "https://sukebei.nyaa.si",
+  "paths": {
+    "preset": "/?q={k}&f={p}&c=0_0",
+    "hot": "/user/{k}?q=&f={p}&c=0_0"
+  },
+  "xpath": {
+    "group": "//table[@class='table table-bordered table-hover table-striped torrent-list']/tbody",
+    "magnet": "./tr[56]/td[3]/a[2]/@href",
+    "name": "./tr[1]/td[3]/a[3]",
+    "size": "./tr[56]/td[4]",
+    "date": "./tr[56]/td[5]",
+
+  }
+ }
+]
