@@ -1,20 +1,18 @@
 [
   {
   "id": "nyaa",
-  "name": "Browse :: Sukebei",
+  "name": "ttt :: Sukebei",
   "url": "https://sukebei.nyaa.si",
-  "icon": "https://sukebei.nyaa.si/favicon.ico",
   "paths": {
-    "preset": "/?s=seeders&o=desc",
-    "time": "/view/{p}"
+    "preset": "/?q={k}&f={p}&c=0_0",
+    "hot": "/user/{k}?q=&f={p}&c=0_0"
   },
   "xpath": {
     "group": "//table[@class='table table-bordered table-hover table-striped torrent-list']/tbody",
-    "magnet": "./tr[149]/td[3]/a[4]/@href",
-    "name": "./tr[3]/td[3]/a[3]",
-    "size": "./tr[72]/td[1]/p[6]/a[1]",
-    "date": "./tr[149]/td[5]",
-    "hot": "./tr[149]/td[8]"
+    "magnet": "./tr[56]/td[3]/a[2]/@href",
+    "name": "./tr[1]/td[3]/a[3]",
+    "size": "./tr[56]/td[4]",
+    "date": "./tr[56]/td[5]",
   }
-}
-]  
+  }  
+]
